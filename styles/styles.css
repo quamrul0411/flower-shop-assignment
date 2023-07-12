@@ -8,12 +8,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 150px;
+    padding-left: 120px;
 
 }
-.banner-item{
-    padding: 20px;
-}
+
 .title{
     display: flex;
     width: 708px;
@@ -21,15 +19,15 @@
     font-size: 80px;
 }
 .item-description{
-    display: flex;
+    /* display: flex; */
     width: 634px;
     margin-top: 20px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
 }
 .image{
-    width: 485px;
-    padding-right: 100px;
+    width: 450px;
+    /* padding-right:20px; */
 }
 
 .btn-primary{
@@ -63,6 +61,8 @@ padding-top: 150px;
 }
 .box{
     display: flex;
+    background: #FFF;
+    padding-left: 200px;
 
 }
 .box-one{
@@ -132,12 +132,9 @@ padding-top: 150px;
     margin-top: 60px;
     display: flex;
     gap: 5px;
-    padding: 50px;
-   
-}
-icon{
-    width: 50px;
-    height: 50px;
+    padding-left: 50px;
+    padding-right:50px;
+    
 }
 .subscribe{
     height: 100vh;
